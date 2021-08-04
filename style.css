@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; /* light version */
+  color: #002366;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  padding: 20px 40px; /* Top and bottom, than right and left */
+  margin: 20px;
+  border-radius: 5px;
+  background: white;
+  border: 1px solid rgb(236, 236, 236);
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+h1 {
+  color: #002366;
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  color: #FA8072;
+  font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+  color: #0F52BA;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #FA8072;
+}
+
+.fab {
+  color: #0F52BA;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 12px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+/* Responsive design */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
