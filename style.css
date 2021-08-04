@@ -80,6 +80,16 @@ h3 {
   padding-left: 0px;
 }
 
+.flexcontainer {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 320px) {
+  .flexcontainer {
+    display: block;
+  }
+}
+
 
 /* Responsive design */
 
