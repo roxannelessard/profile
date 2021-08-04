@@ -26,9 +26,9 @@ body {
   border-radius: 50%;
 }
 
-.img-skills {
+/* .img-piechart {
   border-radius: 50%;
-}
+} */
 
 h1 {
   color: #002366;
@@ -49,11 +49,13 @@ h3 {
   color: #0F52BA;
   font-weight: 500;
   transition: 0.2s;
+  background-color: rgb(206, 248, 206);
 }
 
 .link:hover {
   text-decoration: underline;
   color: #FA8072;
+  background-color: rgb(129, 249, 129);
 }
 
 .fab {
@@ -80,10 +82,23 @@ h3 {
   padding-left: 0px;
 }
 
-.flexcontainer {
+.flex-container {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  background-color: DodgerBlue;
 }
+
+.flex-container>div {
+  background-color: #f1f1f1;
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+
+}
+
+
 @media (max-width: 320px) {
   .flexcontainer {
     display: block;
